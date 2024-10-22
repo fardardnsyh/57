@@ -1,0 +1,23 @@
+type: object
+required:
+  - id
+  - title
+  - isHidden
+  - summary
+properties:
+  id:
+    type: string
+    description: Resource Id.
+    example: f4dfc6e7-804a-47c9-bb9b-fa95bc9fa31c
+  title:
+    type: string
+    description: Summary section title.
+    example: About me
+  isHidden:
+    type: boolean
+    description: Summary section is hidden flag.
+    example: false
+  summary:
+    type: string
+    description: A brief summary of the owner's professional background and skills.
+    example: Dedicated software engineer with 5 years of experience in full-stack web development and a passion for creating efficient and scalable solutions.

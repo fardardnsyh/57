@@ -1,0 +1,24 @@
+type: object
+required:
+  - id
+  - title
+  - isHidden
+  - languageList
+properties:
+  id:
+    type: string
+    description: Resource Id.
+    example: f4dfc6e7-804a-47c9-bb9b-fa95bc9fa31c
+  title:
+    type: string
+    description: Languages section title.
+    example: Languages
+  isHidden:
+    type: boolean
+    description: Languages section is hidden flag.
+    example: false
+  languageList:
+    type: array
+    description: An array of languages.
+    items:
+      $ref: 'components/_index.yaml#/schemas/Language'

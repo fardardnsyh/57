@@ -1,0 +1,26 @@
+type: object
+required:
+  - id
+  - name
+  - level
+properties:
+  id:
+    type: string
+    description: Resource Id.
+    example: f4dfc6e7-804a-47c9-bb9b-fa95bc9fa31c
+  name:
+    type: string
+    description: The language name.
+    example: English
+  level:
+    type: string
+    description: The language level.
+    example: B2
+  certificateLink:
+    type: string
+    description: The language certificate url.
+    example: http://cambridge.com/language
+example:
+  name: English
+  level: B2
+  certificateLink: http://cambridge.com/language

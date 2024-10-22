@@ -1,0 +1,38 @@
+openapi: 3.0.0
+
+info:
+  title: Resume builder
+  description: |
+    Resume builder app
+  version: 1.0.0
+
+tags:
+  - name: Resume
+    description: Resume API
+
+  - name: Header
+    description: Resume API
+
+  - name: Summary
+    description: Resume API
+
+  - name: Experience
+    description: Resume API
+
+  - name: Education
+    description: Resume API
+
+  - name: Languages
+    description: Resume API
+
+  - name: Skills
+    description: Resume API
+
+  - name: User
+    description: User API
+
+paths:
+  $ref: './paths/_index.yaml'
+
+components:
+  $ref: './components/_index.yaml'

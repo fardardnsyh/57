@@ -1,0 +1,27 @@
+type: object
+required:
+  - id
+  - title
+  - career
+  - dates
+properties:
+  id:
+    type: string
+    description: Resource Id.
+    example: f4dfc6e7-804a-47c9-bb9b-fa95bc9fa31c
+  title:
+    type: string
+    description: The name of the title or educational institution.
+    example: University of Example
+  career:
+    type: string
+    description: The name of the career.
+    example: Software engineering
+  dates:
+    type: string
+    description: Duration dates of current education.
+    example: 2018-09-01 - currently
+example:
+  title: University of Example
+  career: Software engineering
+  dates: 2018-09-01 - currently

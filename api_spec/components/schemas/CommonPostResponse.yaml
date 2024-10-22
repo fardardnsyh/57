@@ -1,0 +1,13 @@
+type: object
+required:
+  - status
+  - message
+properties:
+  status:
+    type: integer
+    description: Response code
+    example: 201
+  message:
+    type: string
+    description: Post description
+    example: 'Resume section created'

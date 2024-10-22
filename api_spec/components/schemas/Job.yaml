@@ -1,0 +1,33 @@
+type: object
+required:
+  - id
+  - title
+  - company
+  - dates
+  - description
+properties:
+  id:
+    type: string
+    description: Resource Id.
+    example: f4dfc6e7-804a-47c9-bb9b-fa95bc9fa31c
+  title:
+    type: string
+    description: The job title.
+    example: Software Engineer
+  company:
+    type: string
+    description: The name of the company.
+    example: Acme Corporation
+  dates:
+    type: string
+    description: Duration dates of current job.
+    example: 2018-09-01 - currently
+  description:
+    type: string
+    description: A brief description of the job responsibilities and achievements.
+    example: Developed web applications using React and Node.js.
+example:
+  title: Software Engineer
+  company: Acme Corporation
+  dates: 2018-09-01 - currently
+  description: Developed web applications using React and Node.js.

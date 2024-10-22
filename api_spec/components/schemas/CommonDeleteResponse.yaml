@@ -1,0 +1,13 @@
+type: object
+required:
+  - status
+  - message
+properties:
+  status:
+    type: integer
+    description: Response code
+    example: 204
+  message:
+    type: string
+    description: Delete description
+    example: 'Resume section deleted'

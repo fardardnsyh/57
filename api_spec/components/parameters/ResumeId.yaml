@@ -1,0 +1,6 @@
+name: resume_id
+in: path
+description: Resume ID
+required: true
+schema:
+  type: string

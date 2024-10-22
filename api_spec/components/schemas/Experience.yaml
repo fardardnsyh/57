@@ -1,0 +1,24 @@
+type: object
+required:
+  - id
+  - title
+  - isHidden
+  - jobList
+properties:
+  id:
+    type: string
+    description: Resource Id.
+    example: f4dfc6e7-804a-47c9-bb9b-fa95bc9fa31c
+  title:
+    type: string
+    description: Experience section title.
+    example: Work Experience
+  isHidden:
+    type: boolean
+    description: Experience section is hidden flag.
+    example: false
+  jobList:
+    type: array
+    description: An array of jobs.
+    items:
+      $ref: 'components/_index.yaml#/schemas/Job'
